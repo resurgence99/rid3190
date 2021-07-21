@@ -1,0 +1,200 @@
+.open-sans-condensed{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    --scrollbarBG: #005AB5;
+    --thumbBG: #febd11;
+    scroll-behavior: smooth;
+  }
+
+  /* Scroll Bar Script */
+body::-webkit-scrollbar {
+    width: 13px;
+    
+  }
+body {
+    scrollbar-width: medium;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    font-family: 'Raleway', sans-serif;
+  }
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  }
+
+.navbar-nav{
+    font-weight: 600;
+    font-size:1.1rem;
+}
+
+.dropdown-item{
+    color:#00246c;
+}
+
+.my-dropdown-toggle::after {
+    content: none;
+}
+
+.first-page{
+    background-color: white;
+}
+
+.second-page{
+    
+}
+
+.first-page-content{
+    padding-top: 30vh;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom:32vh;
+}
+
+.h1-landing{
+    font-weight: 700;
+    font-size:3rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .h1-landing{
+        font-weight: 700;
+        font-size:2.4rem;
+    }
+
+    .p-landing{
+
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-align: center; 
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+  }
+
+
+img{
+    max-width: 98%;
+}
+
+.p-landing{
+
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center; 
+    padding-left: 2%;
+    padding-right: 2%;
+    color: black;
+}
+
+/* Third page */
+.third-page{
+}
+
+/* Areas Of Focus */
+.area-h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.area-img{
+    width: 170px;
+    height: 170px;
+    margin-left: 30.5%;
+}
+
+.area-h2{
+    text-align: center;
+    font-weight: 700;
+    font-size:1.8rem;
+}
+.area-p{
+    text-align: center;
+    font-weight: 500;
+    font-size:1.1rem;
+}
+
+/* Font And background Color Classes */
+.primary-color-text{
+    color:#005daa;
+}
+.secondary-color-text{
+    color:#00246c;
+}
+.tertiary-color-text{
+    color:#febd11;
+}
+.cranberry-color-text{
+    color:#d91b5c;
+}
+.darkyellow-color-text{
+    color:#f79725;
+}
+.skyblue-color-text{
+    color:#019fcb;
+}
+.turq-color-text{
+    color:#018d8d;
+}
+.violet-color-text{
+    color:#872175;
+}
+.cardinal-color-text{
+    color:#e02927;
+}
+.white-color-text{
+    color:white;
+}
+.orange-color-text{
+    color: #ff7600;
+}
+.green-color-text{
+    color:#009739;
+}
+
+.primary-color-bkgrnd{
+    background-color:#005daa;
+}
+.secondary-color-bkgrnd{
+    background-color:#00246c;
+}
+.tertiary-color-bkgrnd{
+    background-color:#febd11;
+}
+.cranberry-color-bkgrnd{
+    background-color:#d91b5c;
+}
+.darkyellow-color-bkgrnd{
+    background-color:#f79725;
+}
+.skyblue-color-bkgrnd{
+    background-color:#019fcb;
+}
+.turq-color-bkgrnd{
+    background-color:#018d8d;
+}
+.violet-color-bkgrnd{
+    background-color:#872175;
+}
+.cardinal-color-bkgrnd{
+    background-color:#e02927;
+   
+}
+.orange-color-bkgrnd{
+    background-color: #ff7600;
+
+}
+.green-color-bkgrnd{
+    background-color:#009739;
+}
+
+
+
+/* Card Slider */
