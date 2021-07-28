@@ -99,6 +99,16 @@ img{
 .third-page{
 }
 
+/* Second Page */
+.second-page{
+    min-height:50vh;
+}
+
+.dg-img{
+    height:400px;
+    width:400px;
+    margin-left: 15%;
+}
 /* Areas Of Focus */
 .area-h1{
     font-weight: 600;
